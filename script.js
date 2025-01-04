@@ -3,7 +3,7 @@ const displayed = document.getElementById("background");
 const countdownEle = document.getElementById("countdown");
 const message = document.getElementById("message");
 
-let num = 10;
+let num = 30;
 let countdown;
 let isCounting = false;
 
@@ -62,7 +62,7 @@ function verifyInput() {
 function reset() {
     clearInterval(countdown);
     isCounting = false;
-    num = 10;
+    num = 30;
     countdownEle.textContent = num;
     text.value = "";
     text.disabled = false;
